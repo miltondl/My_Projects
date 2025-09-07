@@ -1,4 +1,4 @@
-# Patch Report Automation
+# Automated Annotation Tracker
 
 ## Description
 This project demonstrates an **automated pipeline to process patch-level data**, extract image links, and assign taggers. It simulates integration with BigQuery and Dataloop-like annotation platforms using **mock data** to keep the project portfolio-safe.  
