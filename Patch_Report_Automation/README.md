@@ -1,7 +1,7 @@
 # Automated Annotation Tracker
 
 ## Description
-This project demonstrates an **automated pipeline to process patch-level data**, extract image links, and assign taggers. It simulates integration with BigQuery and Dataloop-like annotation platforms using **mock data** to keep the project portfolio-safe.  
+This project demonstrates an **automated pipeline to process QC-flagged annotations**, extract image links, and identify the tagger responsible for each annotation. It updates a BigQuery-like table with **correct labels, tagger info, date, and company**, simulating integration with Dataloop and BigQuery while using **mock data** to keep the project portfolio-safe.  
 
 The pipeline is designed to show your skills in **data processing, ETL automation, and API integration** without exposing any sensitive company data.
 
@@ -19,7 +19,7 @@ The pipeline is designed to show your skills in **data processing, ETL automatio
 ## Project Workflow
 1. **Fetch patch reports** from a simulated BigQuery table.  
 2. **Extract image links** for each patch using a mock AppSheet-like process.  
-3. **Assign taggers** to patches based on annotation item IDs.  
+3. **Assign taggers** to QC-flagged annotations based on annotation item IDs.  
 4. **Clean and prepare the dataset** for further analysis or reporting.  
 5. Optional: Upload processed data to BigQuery (mock example included).  
 
