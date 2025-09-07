@@ -3,8 +3,6 @@
 ## Description
 This project demonstrates an **automated pipeline to process QC-flagged annotations**, extract image links, and identify the tagger responsible for each annotation. It updates a BigQuery-like table with **correct labels, tagger info, date, and company**, simulating integration with Dataloop and BigQuery while using **mock data** to keep the project portfolio-safe.  
 
-The pipeline is designed to show your skills in **data processing, ETL automation, and API integration** without exposing any sensitive company data.
-
 ---
 
 ## Key Skills Demonstrated
