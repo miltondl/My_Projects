@@ -54,3 +54,19 @@ This tool supports the **feedback loop between QC teams and external tagging com
 1. Install the dependencies:  
 ```bash
 pip install dtlpy pandas requests beautifulsoup4 google-cloud-bigquery
+
+
+2. Run the notebook or script step by step:
+
+- Fetch report data
+- Extract patch image links
+- Get tagger metadata
+- Clean and prepare the dataset
+- Upload the dataset to BigQuery:
+
+```from google.cloud import bigquery
+client = bigquery.Client(project="portfolio-project")
+table_id = "portfolio_dataset.patch_reports"
+job_config = bigquery.LoadJobConfig(write_disposition="WRITE_APPEND")
+job = client.load_table_from_dataframe(patch_report_list, table_id, job_config=job_config)
+job.result()
