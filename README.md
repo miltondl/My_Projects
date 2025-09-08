@@ -36,9 +36,8 @@ Welcome to my project portfolio! Here you'll find a selection of my work in **da
 ---
 
 ## 📫 Contact
-- **Email:** your.email@example.com  
-- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-
+- **Email:** miltondele@gmail.com
+- **LinkedIn:** [linkedin.com/in/milton-del-aguila-3076a9139](https://linkedin.com/in/milton-del-aguila-3076a9139)
 ---
 
 *This repository showcases portfolio-safe examples, using mock or anonymized data.*
