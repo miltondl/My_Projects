@@ -41,14 +41,11 @@ This tool supports the **feedback loop between QC teams and external tagging com
 
 ## 📂 Example Table (with fake data)  
 
-+----------+----------+--------------------+---------------+----------------+-----------------+----------------+------------+-----------------------------+
-| patch_id | image_id | annotation_item_ids | tagger        | tagger_company | wrong_label     | correct_label  | date       | link                        |
-+----------+----------+--------------------+---------------+----------------+-----------------+----------------+------------+-----------------------------+
-| 101      | IMG_01   | ["ann1"]           | Alice         | Company_A      | Pigweed         | Morning Glory  | 2025-09-06 | https://fake-link/img1.png  |
-| 102      | IMG_02   | ["ann2"]           | Bob           | Company_B      | Crabgrass       | Pigweed        | 2025-09-06 | https://fake-link/img2.png  |
-| 103      | IMG_02   | ["ann3"]           | Carla, David  | Company_C      | Morning Glory   | Crabgrass      | 2025-09-07 | https://fake-link/img2.png  |
-+----------+----------+--------------------+---------------+----------------+-----------------+----------------+------------+-----------------------------+
-
+| patch_id | image_id | annotation_item_ids | tagger        | tagger_company | correct_label | date       | link                        |  
+|----------|----------|----------------------|---------------|----------------|---------------|------------|-----------------------------|  
+| 101      | IMG_01   | [“ann1”]            | Alice         | Company_A      | Weed          | 2025-09-06 | https://fake-link/img1.png  |  
+| 102      | IMG_02   | [“ann2”]            | Bob           | Company_B      | Disease       | 2025-09-06 | https://fake-link/img2.png  |  
+| 103      | IMG_02   | [“ann3”]            | Carla, David  | Company_C      | Crop          | 2025-09-07 | https://fake-link/img2.png  |  
 
 ---
 
