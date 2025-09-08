@@ -52,8 +52,8 @@ This tool supports the **feedback loop between QC teams and external tagging com
 ## ▶️ How to Run  
 
 1. Install the dependencies:  
-```bash
-pip install dtlpy pandas requests beautifulsoup4 google-cloud-bigquery```
+``bash
+pip install dtlpy pandas requests beautifulsoup4 google-cloud-bigquery``
 
 ### 2. Run the notebook or script step by step  
 - Fetch report data  
