@@ -109,8 +109,8 @@ table_id = "portfolio_dataset.validation_table"
 
 job_config = bigquery.LoadJobConfig(write_disposition="WRITE_APPEND")
 job = client.load_table_from_dataframe(validation_report, table_id, job_config=job_config)
-job.result()``
-
+job.result()
+```
 --
 
 ## 📁 Repository Structure
