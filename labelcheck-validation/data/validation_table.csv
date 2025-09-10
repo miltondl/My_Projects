@@ -1,0 +1,285 @@
+﻿taggers_company,test_name,qc_member,value,is_correct_answer,patch_id,MapView_link,link,,Is_TestName_Correct (Validated 1),Validated_Label (Validated 1),Is_TestName_Correct (Validated 2),Validated_Label (Validated 2),Validation calculation,Is_TestName_Correct (Final),Validated Label (Final)
+TaggerCompany1,Broad examples 4-20,user1@qc.com,Broad,TRUE,a1,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Full agreement,TRUE,Correct answer
+TaggerCompany1,Broad examples 4-20,user2@qc.com,Broad,TRUE,a2,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Full agreement,TRUE,Correct answer
+TaggerCompany2,Broadleaf - Unidentified,user3@qc.com,Broadleaf - Unidentified,TRUE,a3,mapviewlink.com,visible_link.com,,FALSE,Morning glory,FALSE,Morning glory,Full agreement,FALSE,Morning glory
+TaggerCompany3,Dayflower,user4@qc.com,Dayflower weed,TRUE,a4,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Full agreement,TRUE,Correct answer
+TaggerCompany3,Morning glory,user5@qc.com,Morning glory weed,TRUE,a5,mapviewlink.com,visible_link.com,,FALSE,Broadleaf - Unidentified,FALSE,Broadleaf - Unidentified,Agreement (2),FALSE,Broadleaf - Unidentified
+TaggerCompany1,Barnyard grasses/Cockspur grass,user1@qc.com,Barnyard grasses/Cockspur grass weed,TRUE,a6,mapviewlink.com,visible_link.com,,FALSE,Not a Weed,TRUE,Correct answer,Agreement (2),TRUE,Correct answer
+TaggerCompany1,Barnyard grasses/Cockspur grass,user2@qc.com,Barnyard grasses/Cockspur grass weed,TRUE,a7,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Full agreement,TRUE,Correct answer
+TaggerCompany1,Annual bluegrass/Winter grass,user3@qc.com,Itch grass,FALSE,a8,mapviewlink.com,visible_link.com,,FALSE,Itch grass,FALSE,Itch grass,Agreement (2),FALSE,Itch grass
+TaggerCompany1,Bluestems,user4@qc.com,Surinam grass,FALSE,a9,mapviewlink.com,visible_link.com,,FALSE,Grass - Unidentified,FALSE,Grass - Unidentified,Agreement (2),FALSE,Grass - Unidentified
+TaggerCompany1,Annual bluegrass/Winter grass,user5@qc.com,Barnyard grass,FALSE,a10,mapviewlink.com,visible_link.com,,FALSE,Itch grass,FALSE,Itch grass,Agreement (2),FALSE,Itch grass
+TaggerCompany1,Common milkweed,user1@qc.com,Rattlebox,FALSE,a11,mapviewlink.com,visible_link.com,,FALSE,Rattlebox,FALSE,Rattlebox,Full agreement,FALSE,Rattlebox
+TaggerCompany1,Goosegrass/Crowsfoot grass,user2@qc.com,Goosegrass/Crowsfoot grass weed,TRUE,a12,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Bermudagrass (Cynodon dactylon),Agreement (2),TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user3@qc.com,Identifiable Broad,FALSE,a13,mapviewlink.com,visible_link.com,,FALSE,Velvet bean,FALSE,Velvet bean,Full agreement,FALSE,Velvet bean
+TaggerCompany1,Johnsongrass (Sorghum halepense),user4@qc.com,Bluestems,FALSE,a14,mapviewlink.com,visible_link.com,,FALSE,Bluestems,FALSE,Grass - Unidentified,Agreement (2),FALSE,Bluestems
+TaggerCompany1,Velvet bean,user5@qc.com,Velvet bean weed,TRUE,a15,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Full agreement,TRUE,Correct answer
+TaggerCompany1,Morning glory,user1@qc.com,Morning glory weed,TRUE,a16,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Broadleaf - Unidentified,Agreement (2),TRUE,Correct answer
+TaggerCompany1,Surinam grass,user2@qc.com,Not a Weed,FALSE,a17,mapviewlink.com,visible_link.com,,FALSE,Not a Weed,FALSE,Grass - Unidentified,Agreement (2),FALSE,Not a Weed
+TaggerCompany1,Pill-bearing spurge,user3@qc.com,Pill-bearing spurge weed,TRUE,a18,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2),TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user4@qc.com,Identifiable Broad,FALSE,a19,mapviewlink.com,visible_link.com,,FALSE,Ivy-leaf morning glory,FALSE,Ivy-leaf morning glory,Agreement (2),FALSE,Ivy-leaf morning glory
+TaggerCompany1,Broadleaf - Unidentified,user5@qc.com,Identifiable Broad,FALSE,a20,mapviewlink.com,visible_link.com,,FALSE,Wild mint,FALSE,Pigweeds,Agreement (2),FALSE,Pigweeds
+TaggerCompany1,Cypress vine,user1@qc.com,Cypress vine weed,TRUE,a21,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Full agreement,TRUE,Correct answer
+TaggerCompany1,Sicklepod,user2@qc.com,Sicklepod weed,TRUE,a22,mapviewlink.com,visible_link.com,,FALSE,Broadleaf - Unidentified,FALSE,Grass - Unidentified,Agreement (2),FALSE,Broadleaf - Unidentified
+TaggerCompany1,Bluestems,user3@qc.com,Barnyard grass,FALSE,a23,mapviewlink.com,visible_link.com,,FALSE,Guinea grass,TRUE,Correct answer,Agreement (2),FALSE,Guinea grass
+TaggerCompany1,Morning glory,user4@qc.com,Morning glory weed,TRUE,a24,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Full agreement,TRUE,Correct answer
+TaggerCompany1,Surinam grass,user5@qc.com,Surinam grass weed,TRUE,a25,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Full agreement,TRUE,Correct answer
+TaggerCompany2,Crabgrass,user1@qc.com,Crabgrass weed,TRUE,a26,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Full agreement,TRUE,Correct answer
+TaggerCompany2,Alexander grass,user2@qc.com,Surinam grass,FALSE,a27,mapviewlink.com,visible_link.com,,FALSE,Sandburs,TRUE,Correct answer,Agreement (2),TRUE,Correct answer
+TaggerCompany2,Grass - Unidentified,user3@qc.com,Identifiable Grass,FALSE,a28,mapviewlink.com,visible_link.com,,FALSE,Guinea grass,TRUE,Correct answer,Agreement (2),FALSE,Guinea grass
+TaggerCompany2,Jamaican crabgrass,user4@qc.com,Jamaican crabgrass weed,TRUE,a29,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2),TRUE,Correct answer
+TaggerCompany2,Wild mint,user5@qc.com,Wild mint weed,TRUE,a30,mapviewlink.com,visible_link.com,,FALSE,Broadleaf - Unidentified,FALSE,Broadleaf - Unidentified,Agreement (2),FALSE,Broadleaf - Unidentified
+TaggerCompany1,Sandburs,user1@qc.com,Sandburs weed,TRUE,a31,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany1,Grass - Unidentified,user2@qc.com,Grass - Unidentified,TRUE,a32,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2),TRUE,Correct answer
+TaggerCompany1,Ivy-leaf morning glory,user3@qc.com,Ivy-leaf morning glory weed,TRUE,a33,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Full agreement,TRUE,Correct answer
+TaggerCompany2,Guinea grass,user4@qc.com,Guinea grass weed,TRUE,a34,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Mexican fireweed,user5@qc.com,Mexican fireweed weed,TRUE,a35,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Crabgrass,user1@qc.com,Crabgrass weed,TRUE,a36,mapviewlink.com,visible_link.com,,FALSE,Grass - Unidentified,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany3,Crabgrass,user2@qc.com,Crabgrass weed,TRUE,a37,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Sandburs,user3@qc.com,Sandburs weed,TRUE,a38,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Sponge gourd,user4@qc.com,Sponge gourd weed,TRUE,a39,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Common purslane,user5@qc.com,Common purslane weed,TRUE,a40,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Cypress vine,user1@qc.com,Cypress vine weed,TRUE,a41,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Crabgrass,user2@qc.com,Crabgrass weed,TRUE,a42,mapviewlink.com,visible_link.com,,FALSE,Surinam grass,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Common Lambsquarters,user3@qc.com,Common Lambsquarters weed,TRUE,a43,mapviewlink.com,visible_link.com,,FALSE,Sida,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany3,Green carpetweed,user4@qc.com,Mexican fire plant,FALSE,a44,mapviewlink.com,visible_link.com,,FALSE,Mexican fireweed,FALSE,Mexican fireweed,Agreement (2) No Idan,FALSE,Mexican fireweed
+TaggerCompany1,Sida,user5@qc.com,Sida weed,TRUE,a45,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Tall windmill grass,user1@qc.com,Tall windmill grass weed,TRUE,a46,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Sida,user2@qc.com,Sida weed,TRUE,a47,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Broadleaf - Unidentified,user3@qc.com,Broadleaf - Unidentified,TRUE,a48,mapviewlink.com,visible_link.com,,FALSE,Pill-bearing spurge,FALSE,Pill-bearing spurge,Agreement (2) No Idan,FALSE,Pill-bearing spurge
+TaggerCompany3,Broadleaf - Unidentified,user4@qc.com,Broadleaf - Unidentified,TRUE,a49,mapviewlink.com,visible_link.com,,FALSE,Pill-bearing spurge,FALSE,Pill-bearing spurge,Agreement (2) No Idan,FALSE,Pill-bearing spurge
+TaggerCompany3,Crabgrass,user5@qc.com,Crabgrass weed,TRUE,a50,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Grass - Unidentified,user1@qc.com,Identifiable Grass,FALSE,a51,mapviewlink.com,visible_link.com,,FALSE,Tall windmill grass,FALSE,Tall windmill grass,Agreement (2) No Idan,FALSE,Tall windmill grass
+TaggerCompany1,Pill-bearing spurge,user2@qc.com,Pill-bearing spurge weed,TRUE,a52,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Crabgrass,user3@qc.com,Crabgrass weed,TRUE,a53,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Mission Grass,user4@qc.com,Mission Grass weed,TRUE,a54,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Morning glory,user5@qc.com,Morning glory weed,TRUE,a55,mapviewlink.com,visible_link.com,,FALSE,Broadleaf - Unidentified,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany1,Chewing damage insect samples,user1@qc.com,Chewing damage insect,TRUE,a56,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user2@qc.com,Grass,FALSE,a57,mapviewlink.com,visible_link.com,,FALSE,Grass - Unidentified,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany2,Goosegrass/Crowsfoot grass,user3@qc.com,Goosegrass/Crowsfoot grass weed,TRUE,a58,mapviewlink.com,visible_link.com,,FALSE,Crabgrass,FALSE,Sourgrass,No agreement,,No agreement
+TaggerCompany2,Nutsedges (Cyperus),user4@qc.com,Nutsedges (Cyperus) weed,TRUE,a59,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Goosegrass/Crowsfoot grass,No agreement,,No agreement
+TaggerCompany3,Sowthistles,user5@qc.com,Hairy woodrose,FALSE,a60,mapviewlink.com,visible_link.com,,FALSE,Hairy woodrose,FALSE,Hairy woodrose,Agreement (2) No Idan,FALSE,Hairy woodrose
+TaggerCompany1,Pill-bearing spurge,user1@qc.com,Pill-bearing spurge weed,TRUE,a61,mapviewlink.com,visible_link.com,,FALSE,Broadleaf - Unidentified,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany3,Guinea grass,user2@qc.com,Guinea grass weed,TRUE,a62,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Common milkweed,user3@qc.com,Common milkweed weed,TRUE,a63,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Sponge gourd,user4@qc.com,Bitter Melon (Momordica charantia),FALSE,a64,mapviewlink.com,visible_link.com,,FALSE,Bitter Melon (Momordica charantia),TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany2,Hairy woodrose,user5@qc.com,Hairy woodrose weed,TRUE,a65,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Common Lambsquarters,user1@qc.com,Sponge gourd,FALSE,a66,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Sponge gourd,user2@qc.com,Jimsonweed,FALSE,a67,mapviewlink.com,visible_link.com,,FALSE,Jimsonweed,FALSE,Broadleaf - Unidentified,No agreement,,No agreement
+TaggerCompany1,Broadleaf - Unidentified,user3@qc.com,Broadleaf - Unidentified,TRUE,a68,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Beggarweed,user4@qc.com,Beggarweed weed,TRUE,a69,mapviewlink.com,visible_link.com,,FALSE,Broadleaf - Unidentified,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany2,Jamaican crabgrass,user5@qc.com,Jamaican crabgrass weed,TRUE,a70,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Broadleaf - Unidentified,user1@qc.com,Identifiable Broad,FALSE,a71,mapviewlink.com,visible_link.com,,FALSE,Hairy woodrose,FALSE,Hairy woodrose,Agreement (2) No Idan,FALSE,Hairy woodrose
+TaggerCompany2,Surinam grass,user2@qc.com,Surinam grass weed,TRUE,a72,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany3,Pigweeds,user3@qc.com,Pigweeds weed,TRUE,a73,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Hairy woodrose,user4@qc.com,Hairy woodrose weed,TRUE,a74,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Itch grass,user5@qc.com,Itch grass weed,TRUE,a75,mapviewlink.com,visible_link.com,,FALSE,Not a Weed,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany1,Sida,user1@qc.com,Sida weed,TRUE,a76,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Barnyard grass,user2@qc.com,Barnyard grass weed,TRUE,a77,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Surinam grass,No agreement,,No agreement
+TaggerCompany2,Jamaican crabgrass,user3@qc.com,Jamaican crabgrass weed,TRUE,a78,mapviewlink.com,visible_link.com,,FALSE,Crabgrass,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany3,Broadleaf - Unidentified,user4@qc.com,Broadleaf - Unidentified,TRUE,a79,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user5@qc.com,Broadleaf - Unidentified,TRUE,a80,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Dayflower,No agreement,,No agreement
+TaggerCompany2,Johnsongrass (Sorghum halepense),user1@qc.com,Johnsongrass (Sorghum halepense) weed,TRUE,a81,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Surinam grass,user2@qc.com,Surinam grass weed,TRUE,a82,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany1,Broadleaf - Unidentified,user3@qc.com,Broadleaf - Unidentified,TRUE,a83,mapviewlink.com,visible_link.com,,FALSE,Wild mint,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,False daisy,user4@qc.com,False daisy weed,TRUE,a84,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Billygoat weed,No agreement,,No agreement
+TaggerCompany1,Tall windmill grass,user5@qc.com,Tall windmill grass weed,TRUE,a85,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Guinea grass,user1@qc.com,Guinea grass weed,TRUE,a86,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user2@qc.com,Broadleaf - Unidentified,TRUE,a87,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Johnsongrass (Sorghum halepense),user3@qc.com,Johnsongrass (Sorghum halepense) weed,TRUE,a88,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,False daisy,user4@qc.com,False daisy weed,TRUE,a89,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Billygoat weed,No agreement,,No agreement
+TaggerCompany1,Surinam grass,user5@qc.com,Surinam grass weed,TRUE,a90,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user1@qc.com,Identifiable Broad,FALSE,a91,mapviewlink.com,visible_link.com,,FALSE,Sicklepod,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Sandburs,user2@qc.com,Sandburs weed,TRUE,a92,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user3@qc.com,Broadleaf - Unidentified,TRUE,a93,mapviewlink.com,visible_link.com,,FALSE,Identifiable Broad,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany3,Broadleaf buttonweed,user4@qc.com,Broadleaf buttonweed weed,TRUE,a94,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Castor Bean,user5@qc.com,Castor Bean weed,TRUE,a95,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Crabgrass,user1@qc.com,Crabgrass weed,TRUE,a96,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Ivy-leaf morning glory,user2@qc.com,Ivy-leaf morning glory weed,TRUE,a97,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Morning glory,user3@qc.com,Morning glory weed,TRUE,a98,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user4@qc.com,Broadleaf - Unidentified,TRUE,a99,mapviewlink.com,visible_link.com,,FALSE,Sicklepod,FALSE,Sicklepod,Agreement (2) No Idan,FALSE,Sicklepod
+TaggerCompany1,Jimsonweed,user5@qc.com,Jimsonweed weed,TRUE,a100,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Not a Weed,No agreement,,No agreement
+TaggerCompany2,Morning glory,user1@qc.com,Morning glory weed,TRUE,a101,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Rattlebox,user2@qc.com,Rattlebox weed,TRUE,a102,mapviewlink.com,visible_link.com,,FALSE,Beggarweed,FALSE,Broadleaf - Unidentified,No agreement,,No agreement
+TaggerCompany1,Crabgrass,user3@qc.com,Crabgrass weed,TRUE,a103,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Bluestems,user4@qc.com,Bluestems weed,TRUE,a104,mapviewlink.com,visible_link.com,,FALSE,Crabgrass,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Barnyard grass,user5@qc.com,Sourgrass,FALSE,a105,mapviewlink.com,visible_link.com,,FALSE,Sourgrass,FALSE,Surinam grass,No agreement,,No agreement
+TaggerCompany1,Broadleaf - Unidentified,user1@qc.com,Broadleaf - Unidentified,TRUE,a106,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Broadleaf - Unidentified,user2@qc.com,Identifiable Broad,FALSE,a107,mapviewlink.com,visible_link.com,,FALSE,Morning glory,FALSE,Morning glory,Agreement (2) No Idan,FALSE,Morning glory
+TaggerCompany2,Ivy-leaf morning glory,user3@qc.com,Ivy-leaf morning glory weed,TRUE,a108,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Broadleaf - Unidentified,user4@qc.com,Identifiable Broad,FALSE,a109,mapviewlink.com,visible_link.com,,FALSE,Wild radish,FALSE,Cockleburs,No agreement,,No agreement
+TaggerCompany1,Sicklepod,user5@qc.com,Sicklepod weed,TRUE,a110,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Sicklepod,user1@qc.com,Sicklepod weed,TRUE,a111,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Hairy woodrose,user2@qc.com,Mexican fire plant,FALSE,a112,mapviewlink.com,visible_link.com,,FALSE,Morning glory,FALSE,Broadleaf - Unidentified,No agreement,,No agreement
+TaggerCompany2,Broadleaf - Unidentified,user3@qc.com,Broadleaf - Unidentified,TRUE,a113,mapviewlink.com,visible_link.com,,FALSE,Morning glory,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Volunteer Peanut,user4@qc.com,Volunteer Peanut weed,TRUE,a114,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Volunteer Peanut,user5@qc.com,Volunteer Peanut weed,TRUE,a115,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Johnsongrass (Sorghum halepense),user1@qc.com,Johnsongrass (Sorghum halepense) weed,TRUE,a116,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Morning glory,user2@qc.com,Morning glory weed,TRUE,a117,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Red tasselflower,user3@qc.com,Red tasselflower weed,TRUE,a118,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Natal grass,user4@qc.com,Natal grass weed,TRUE,a119,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Morning glory,user5@qc.com,Morning glory weed,TRUE,a120,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Surinam grass,user1@qc.com,Surinam grass weed,TRUE,a121,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Sicklepod,user2@qc.com,Sicklepod weed,TRUE,a122,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Hairy woodrose,user3@qc.com,Hairy woodrose weed,TRUE,a123,mapviewlink.com,visible_link.com,,FALSE,Broadleaf - Unidentified,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Globe fringerush,user4@qc.com,Nutsedges (Cyperus),FALSE,a124,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Nutsedges (Cyperus),No agreement,,No agreement
+TaggerCompany1,Globe fringerush,user5@qc.com,Nutsedges (Cyperus),FALSE,a125,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Nutsedges (Cyperus),No agreement,,No agreement
+TaggerCompany1,Broadleaf - Unidentified,user1@qc.com,Identifiable Broad,FALSE,a126,mapviewlink.com,visible_link.com,,FALSE,Broadleaf buttonweed,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany3,Green carpetweed,user2@qc.com,Broad,FALSE,a127,mapviewlink.com,visible_link.com,,FALSE,Mexican fireweed,FALSE,Mexican fireweed,Agreement (2) No Idan,FALSE,Mexican fireweed
+TaggerCompany3,Nutsedges (Cyperus),user3@qc.com,Nutsedges (Cyperus) weed,TRUE,a128,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany2,Pill-bearing spurge,user4@qc.com,Pill-bearing spurge weed,TRUE,a129,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Mexican fireweed,user5@qc.com,Mexican fireweed weed,TRUE,a130,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Mexican fireweed,user1@qc.com,Mexican fire plant,FALSE,a131,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Mexican fire plant,No agreement,,No agreement
+TaggerCompany1,Rattlebox,user2@qc.com,Rattlebox weed,TRUE,a132,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Dayflower,user3@qc.com,Broad,FALSE,a133,mapviewlink.com,visible_link.com,,FALSE,Broadleaf - Unidentified,FALSE,Bermudagrass (Cynodon dactylon),No agreement,,No agreement
+TaggerCompany1,Goosegrass/Crowsfoot grass,user4@qc.com,Goosegrass/Crowsfoot grass weed,TRUE,a134,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Bermudagrass (Cynodon dactylon),No agreement,,No agreement
+TaggerCompany2,Surinam grass,user5@qc.com,Surinam grass weed,TRUE,a135,mapviewlink.com,visible_link.com,,FALSE,Tall windmill grass,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Velvet bean,user1@qc.com,Velvet bean weed,TRUE,a136,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Goosegrass/Crowsfoot grass,user2@qc.com,Goosegrass/Crowsfoot grass weed,TRUE,a137,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Bermudagrass (Cynodon dactylon),No agreement,,No agreement
+TaggerCompany1,Sida,user3@qc.com,Sida weed,TRUE,a138,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Goosegrass/Crowsfoot grass,user4@qc.com,Goosegrass/Crowsfoot grass weed,TRUE,a139,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Bermudagrass (Cynodon dactylon),No agreement,,No agreement
+TaggerCompany1,Bluestems,user5@qc.com,Bluestems weed,TRUE,a140,mapviewlink.com,visible_link.com,,FALSE,Grass - Unidentified,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Johnsongrass (Sorghum halepense),user1@qc.com,Johnsongrass (Sorghum halepense) weed,TRUE,a141,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Crabgrass,user2@qc.com,Crabgrass weed,TRUE,a142,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Spurge,user3@qc.com,Spurge weed,TRUE,a143,mapviewlink.com,visible_link.com,,FALSE,Pill-bearing spurge,FALSE,Pill-bearing spurge,Agreement (2) No Idan,FALSE,Pill-bearing spurge
+TaggerCompany1,Mission Grass,user4@qc.com,Mission Grass weed,TRUE,a144,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Broadleaf - Unidentified,user5@qc.com,Broadleaf - Unidentified,TRUE,a145,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Crabgrass,user1@qc.com,Crabgrass weed,TRUE,a146,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Sandburs,No agreement,,No agreement
+TaggerCompany1,Broadleaf - Unidentified,user2@qc.com,Broadleaf - Unidentified,TRUE,a147,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Wild oats,user3@qc.com,Wild oats weed,TRUE,a148,mapviewlink.com,visible_link.com,,FALSE,Bluestems,FALSE,Itch grass,No agreement,,No agreement
+TaggerCompany1,Wild oats,user4@qc.com,Wild oats weed,TRUE,a149,mapviewlink.com,visible_link.com,,FALSE,Bluestems,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany3,Broadleaf - Unidentified,user5@qc.com,Broadleaf - Unidentified,TRUE,a150,mapviewlink.com,visible_link.com,,FALSE,Pill-bearing spurge,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany3,Sida,user1@qc.com,Sida weed,TRUE,a151,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Broadleaf - Unidentified,user2@qc.com,Broadleaf - Unidentified,TRUE,a152,mapviewlink.com,visible_link.com,,FALSE,Morning glory,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany3,Common purslane,user3@qc.com,Broad,FALSE,a153,mapviewlink.com,visible_link.com,,FALSE,Dayflower,FALSE,Dayflower,Agreement (2) No Idan,FALSE,Dayflower
+TaggerCompany3,Sicklepod,user4@qc.com,Sicklepod weed,TRUE,a154,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Broadleaf - Unidentified,user5@qc.com,Identifiable Broad,FALSE,a155,mapviewlink.com,visible_link.com,,FALSE,Broadleaf buttonweed,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany3,Bermudagrass (Cynodon dactylon),user1@qc.com,Jamaican crabgrass,FALSE,a156,mapviewlink.com,visible_link.com,,FALSE,Crabgrass,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Pigweeds,user2@qc.com,Pigweeds weed,TRUE,a157,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user3@qc.com,Broadleaf - Unidentified,TRUE,a158,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Hairy woodrose,user4@qc.com,Velvet bean,FALSE,a159,mapviewlink.com,visible_link.com,,FALSE,Beggarweed,FALSE,Velvet bean,No agreement,,No agreement
+TaggerCompany2,Alexander grass,user5@qc.com,Alexander grass weed,TRUE,a160,mapviewlink.com,visible_link.com,,FALSE,Guinea grass,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany2,Grass - Unidentified,user1@qc.com,Grass - Unidentified,TRUE,a161,mapviewlink.com,visible_link.com,,FALSE,Crabgrass,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany2,Broadleaf - Unidentified,user2@qc.com,Broadleaf - Unidentified,TRUE,a162,mapviewlink.com,visible_link.com,,FALSE,Sticky nightshade,FALSE,Sticky nightshade,Agreement (2) No Idan,FALSE,Sticky nightshade
+TaggerCompany3,Nightshades,user3@qc.com,Broad,FALSE,a163,mapviewlink.com,visible_link.com,,FALSE,Jimsonweed,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany2,Guinea grass,user4@qc.com,Guinea grass weed,TRUE,a164,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Beggarweed,user5@qc.com,Broad,FALSE,a165,mapviewlink.com,visible_link.com,,FALSE,Velvet bean,FALSE,Pill-bearing spurge,No agreement,,No agreement
+TaggerCompany3,Wild celery,user1@qc.com,Velvet bean,FALSE,a166,mapviewlink.com,visible_link.com,,FALSE,Beggarweed,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany3,Wild celery,user2@qc.com,Velvet bean,FALSE,a167,mapviewlink.com,visible_link.com,,FALSE,Beggarweed,FALSE,Velvet bean,No agreement,,No agreement
+TaggerCompany1,Sicklepod,user3@qc.com,Sicklepod weed,TRUE,a168,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Coat buttons,user4@qc.com,Dandelion,FALSE,a169,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Sowthistles,No agreement,,No agreement
+TaggerCompany2,Cockleburs,user5@qc.com,Cockleburs weed,TRUE,a170,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Ring Spot disease/nd samples,user1@qc.com,Healthy,FALSE,a171,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Broadleaf buttonweed,user2@qc.com,Broadleaf buttonweed weed,TRUE,a172,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Broadleaf - Unidentified,No agreement,,No agreement
+TaggerCompany1,Red tasselflower,user3@qc.com,Fleabane/Horseweed,FALSE,a173,mapviewlink.com,visible_link.com,,FALSE,Coat buttons,FALSE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Tall windmill grass,user4@qc.com,Tall windmill grass weed,TRUE,a174,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Sugarcane common rust disease/nd samples,user5@qc.com,Red stripe of sugarcane,FALSE,a175,mapviewlink.com,visible_link.com,,FALSE,Ring Spot,FALSE,Red stripe of sugarcane,No agreement,,No agreement
+TaggerCompany1,Broadleaf - Unidentified,user1@qc.com,Broadleaf - Unidentified,TRUE,a176,mapviewlink.com,visible_link.com,,FALSE,Identifiable Broad,FALSE,Sensitive plant,No agreement,,No agreement
+TaggerCompany1,Jointvetches,user2@qc.com,Sensitive plant,FALSE,a177,mapviewlink.com,visible_link.com,,FALSE,Sensitive plant,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Sourgrass,user3@qc.com,Sourgrass weed,TRUE,a178,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Brazil pusley,user4@qc.com,Brazil pusley weed,TRUE,a179,mapviewlink.com,visible_link.com,,FALSE,Parrotleaf,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Spurge,user5@qc.com,Spurge weed,TRUE,a180,mapviewlink.com,visible_link.com,,FALSE,Pill-bearing spurge,FALSE,Pill-bearing spurge,Agreement (2) No Idan,FALSE,Pill-bearing spurge
+TaggerCompany2,Velvet bean,user1@qc.com,Velvet bean weed,TRUE,a181,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Itch grass,user2@qc.com,Itch grass weed,TRUE,a182,mapviewlink.com,visible_link.com,,FALSE,Grass - Unidentified,FALSE,Grass - Unidentified,Agreement (2) No Idan,FALSE,Grass - Unidentified
+TaggerCompany1,Bluestems,user3@qc.com,Bluestems weed,TRUE,a183,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Crabgrass,user4@qc.com,Crabgrass weed,TRUE,a184,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Flamevine,user5@qc.com,Broad,FALSE,a185,mapviewlink.com,visible_link.com,,FALSE,Beggarweed,FALSE,Broadleaf - Unidentified,No agreement,,No agreement
+TaggerCompany2,Broadleaf - Unidentified,user1@qc.com,Identifiable Broad,FALSE,a186,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Crabgrass,user2@qc.com,Crabgrass weed,TRUE,a187,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Pill-bearing spurge,user3@qc.com,Pill-bearing spurge weed,TRUE,a188,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Crabgrass,user4@qc.com,Crabgrass weed,TRUE,a189,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Grass - Unidentified,user5@qc.com,Grass - Unidentified,TRUE,a190,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Guinea grass,user1@qc.com,Guinea grass weed,TRUE,a191,mapviewlink.com,visible_link.com,,FALSE,Johnsongrass (Sorghum halepense),TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Sandburs,user2@qc.com,Sandburs weed,TRUE,a192,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Surinam grass,user3@qc.com,Surinam grass weed,TRUE,a193,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Guinea grass,No agreement,,No agreement
+TaggerCompany1,Broadleaf - Unidentified,user4@qc.com,Broadleaf - Unidentified,TRUE,a194,mapviewlink.com,visible_link.com,,FALSE,Morning glory,FALSE,Morning glory,Agreement (2) No Idan,FALSE,Morning glory
+TaggerCompany1,Guinea grass,user5@qc.com,Guinea grass weed,TRUE,a195,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user1@qc.com,Broadleaf - Unidentified,TRUE,a196,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Bitter Melon (Momordica charantia),user2@qc.com,Bitter Melon (Momordica charantia) weed,TRUE,a197,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user3@qc.com,Identifiable Broad,FALSE,a198,mapviewlink.com,visible_link.com,,FALSE,Sida,FALSE,Sida,Agreement (2) No Idan,FALSE,Sida
+TaggerCompany1,Nutsedges (Cyperus),user4@qc.com,Nutsedges (Cyperus) weed,TRUE,a199,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany1,Broadleaf - Unidentified,user5@qc.com,Identifiable Broad,FALSE,a200,mapviewlink.com,visible_link.com,,FALSE,Mexican fireweed,FALSE,Mexican fireweed,Agreement (2) No Idan,FALSE,Mexican fireweed
+TaggerCompany1,Nightshades,user1@qc.com,Jimsonweed,FALSE,a201,mapviewlink.com,visible_link.com,,FALSE,Jimsonweed,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Nightshades,user2@qc.com,Jimsonweed,FALSE,a202,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Sicklepod,user3@qc.com,Sicklepod weed,TRUE,a203,mapviewlink.com,visible_link.com,,FALSE,Rattlebox,FALSE,Broadleaf - Unidentified,No agreement,,No agreement
+TaggerCompany1,Sourgrass,user4@qc.com,Grass,FALSE,a204,mapviewlink.com,visible_link.com,,FALSE,Crabgrass,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany3,Parrotleaf,user5@qc.com,Parrotleaf weed,TRUE,a205,mapviewlink.com,visible_link.com,,FALSE,False daisy,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Morning glory,user1@qc.com,Morning glory weed,TRUE,a206,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Beggarticks,user2@qc.com,Beggarticks weed,TRUE,a207,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Wild mint,user3@qc.com,Wild mint weed,TRUE,a208,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Mexican fire plant,user4@qc.com,Mexican fire plant weed,TRUE,a209,mapviewlink.com,visible_link.com,,FALSE,False daisy,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Sensitive plant,user5@qc.com,Sensitive plant weed,TRUE,a210,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Sensitive plant,user1@qc.com,Sensitive plant weed,TRUE,a211,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Surinam grass,user2@qc.com,Surinam grass weed,TRUE,a212,mapviewlink.com,visible_link.com,,FALSE,Bermudagrass (Cynodon dactylon),FALSE,Crabgrass,No agreement,,No agreement
+TaggerCompany1,Sourgrass,user3@qc.com,Sourgrass weed,TRUE,a213,mapviewlink.com,visible_link.com,,FALSE,Surinam grass,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Crabgrass,user4@qc.com,Crabgrass weed,TRUE,a214,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user5@qc.com,Broadleaf - Unidentified,TRUE,a215,mapviewlink.com,visible_link.com,,FALSE,Morning glory,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany2,Morning glory,user1@qc.com,Morning glory weed,TRUE,a216,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Morning glory,user2@qc.com,Morning glory weed,TRUE,a217,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Fleabane/Horseweed,user3@qc.com,Fleabane/Horseweed weed,TRUE,a218,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Beggarticks,user4@qc.com,Beggarticks weed,TRUE,a219,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Morning glory,user5@qc.com,Morning glory weed,TRUE,a220,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Red stripe of sugarcane disease/nd samples,user1@qc.com,Red stripe of sugarcane disease/nd,TRUE,a221,mapviewlink.com,visible_link.com,,FALSE,Red Rot,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany3,Red tasselflower,user2@qc.com,Red tasselflower weed,TRUE,a222,mapviewlink.com,visible_link.com,,FALSE,Broadleaf - Unidentified,FALSE,Broadleaf - Unidentified,Agreement (2) No Idan,FALSE,Broadleaf - Unidentified
+TaggerCompany1,Red Rot disease/nd samples,user3@qc.com,Red Rot disease/nd,TRUE,a223,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany1,Red rice,user4@qc.com,Not a Weed,FALSE,a224,mapviewlink.com,visible_link.com,,FALSE,Red Rot,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany1,Bitterleaf,user5@qc.com,Bitterleaf weed,TRUE,a225,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user1@qc.com,Broadleaf - Unidentified,TRUE,a226,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Goosegrass/Crowsfoot grass,user2@qc.com,Goosegrass/Crowsfoot grass weed,TRUE,a227,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Bermudagrass (Cynodon dactylon),No agreement,,No agreement
+TaggerCompany1,Broadleaf - Unidentified,user3@qc.com,Identifiable Broad,FALSE,a228,mapviewlink.com,visible_link.com,,FALSE,Sida,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Grass - Unidentified,user4@qc.com,Identifiable Grass,FALSE,a229,mapviewlink.com,visible_link.com,,FALSE,Bluestems,FALSE,Itch grass,No agreement,,No agreement
+TaggerCompany1,Billygoat weed,user5@qc.com,Billygoat weed weed,TRUE,a230,mapviewlink.com,visible_link.com,,FALSE,False daisy,FALSE,False daisy,Agreement (2) No Idan,FALSE,False daisy
+TaggerCompany3,Mission Grass,user1@qc.com,Mission Grass weed,TRUE,a231,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Velvet bean,user2@qc.com,Velvet bean weed,TRUE,a232,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Surinam grass,user3@qc.com,Surinam grass weed,TRUE,a233,mapviewlink.com,visible_link.com,,FALSE,Parrotleaf,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany1,Ring Spot disease/nd samples,user4@qc.com,Ring Spot disease/nd,TRUE,a234,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Grass - Unidentified,user5@qc.com,Grass - Unidentified,TRUE,a235,mapviewlink.com,visible_link.com,,FALSE,Surinam grass,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany2,Grasshopper Damage insect samples,user1@qc.com,Grasshopper Damage insect,TRUE,a236,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,stink bug damage insect samples,user2@qc.com,stink bug damage insect,TRUE,a237,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Chewing damage insect samples,user3@qc.com,Chewing damage insect,TRUE,a238,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Grasshopper Damage insect samples,user4@qc.com,Grasshopper Damage insect,TRUE,a239,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Johnsongrass (Sorghum halepense),user5@qc.com,Johnsongrass (Sorghum halepense) weed,TRUE,a240,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Red Rot disease/nd samples,user1@qc.com,Red Rot disease/nd,TRUE,a241,mapviewlink.com,visible_link.com,,FALSE,Red stripe of sugarcane,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany1,stink bug damage insect samples,user2@qc.com,stink bug damage insect,TRUE,a242,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Broadleaf - Unidentified,user3@qc.com,Broadleaf - Unidentified,TRUE,a243,mapviewlink.com,visible_link.com,,FALSE,Beggarweed,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany2,Red Rot disease/nd samples,user4@qc.com,Red Rot disease/nd,TRUE,a244,mapviewlink.com,visible_link.com,,FALSE,Red stripe of sugarcane,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany2,Broadleaf - Unidentified,user5@qc.com,Broadleaf - Unidentified,TRUE,a245,mapviewlink.com,visible_link.com,,FALSE,Beggarweed,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Pill-bearing spurge,user1@qc.com,Broad,FALSE,a246,mapviewlink.com,visible_link.com,,FALSE,Broadleaf - Unidentified,FALSE,Broadleaf - Unidentified,Agreement (2) No Idan,FALSE,Broadleaf - Unidentified
+TaggerCompany3,Groundcherries,user2@qc.com,Groundcherries weed,TRUE,a247,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Broadleaf - Unidentified,No agreement,,No agreement
+TaggerCompany3,Groundcherries,user3@qc.com,Groundcherries weed,TRUE,a248,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Broadleaf - Unidentified,No agreement,,No agreement
+TaggerCompany3,Morning glory,user4@qc.com,Morning glory weed,TRUE,a249,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user5@qc.com,Identifiable Broad,FALSE,a250,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Broadleaf - Unidentified,user1@qc.com,Broadleaf - Unidentified,TRUE,a251,mapviewlink.com,visible_link.com,,FALSE,Broadleaf buttonweed,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Crabgrass,user2@qc.com,Crabgrass weed,TRUE,a252,mapviewlink.com,visible_link.com,,FALSE,Grass - Unidentified,FALSE,Grass - Unidentified,Agreement (2) No Idan,FALSE,Grass - Unidentified
+TaggerCompany1,Red stripe of sugarcane disease/nd samples,user3@qc.com,Red stripe of sugarcane disease/nd,TRUE,a253,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany1,Broadleaf - Unidentified,user4@qc.com,Broadleaf - Unidentified,TRUE,a254,mapviewlink.com,visible_link.com,,FALSE,Sicklepod,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Bermudagrass (Cynodon dactylon),user5@qc.com,Bermudagrass (Cynodon dactylon) weed,TRUE,a255,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Mexican fire plant,user1@qc.com,Mexican fire plant weed,TRUE,a256,mapviewlink.com,visible_link.com,,FALSE,False daisy,TRUE,Correct answer,No agreement,,No agreement
+TaggerCompany1,Castor Bean,user2@qc.com,Castor Bean weed,TRUE,a257,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Guinea grass,user3@qc.com,Guinea grass weed,TRUE,a258,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Tall windmill grass,user4@qc.com,Tall windmill grass weed,TRUE,a259,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Guinea grass,user5@qc.com,Guinea grass weed,TRUE,a260,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Pigweeds,user1@qc.com,Pigweeds weed,TRUE,a261,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Bitterleaf,user2@qc.com,Bitterleaf weed,TRUE,a262,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Alligator weed,user3@qc.com,Alligator weed weed,TRUE,a263,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Alligator weed,user4@qc.com,Alligator weed weed,TRUE,a264,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Fleabane/Horseweed,user5@qc.com,Fleabane/Horseweed weed,TRUE,a265,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Morning glory,user1@qc.com,Morning glory weed,TRUE,a266,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Broadleaf - Unidentified,No agreement,,No agreement
+TaggerCompany2,Crabgrass,user2@qc.com,Crabgrass weed,TRUE,a267,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Sicklepod,user3@qc.com,Pill-bearing spurge,FALSE,a268,mapviewlink.com,visible_link.com,,FALSE,Pill-bearing spurge,FALSE,Broadleaf - Unidentified,No agreement,,No agreement
+TaggerCompany2,Sicklepod,user4@qc.com,Sicklepod weed,TRUE,a269,mapviewlink.com,visible_link.com,,FALSE,Rattlebox,FALSE,Rattlebox,Agreement (2) No Idan,FALSE,Rattlebox
+TaggerCompany2,Sourgrass,user5@qc.com,Sourgrass weed,TRUE,a270,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Sandburs,user1@qc.com,Sandburs weed,TRUE,a271,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany3,Parrotleaf,user2@qc.com,Dayflower,FALSE,a272,mapviewlink.com,visible_link.com,,FALSE,Dayflower,FALSE,Broadleaf - Unidentified,No agreement,,No agreement
+TaggerCompany3,Coffee senna,user3@qc.com,Broad,FALSE,a273,mapviewlink.com,visible_link.com,,FALSE,Broadleaf - Unidentified,FALSE,Broadleaf - Unidentified,Agreement (2) No Idan,FALSE,Broadleaf - Unidentified
+TaggerCompany3,Pill-bearing spurge,user4@qc.com,Pill-bearing spurge weed,TRUE,a274,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Black bindweed/Wild buckwheat,user5@qc.com,Black bindweed/Wild buckwheat weed,TRUE,a275,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Black bindweed/Wild buckwheat,user1@qc.com,Black bindweed/Wild buckwheat weed,TRUE,a276,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Pill-bearing spurge,user2@qc.com,Pill-bearing spurge weed,TRUE,a277,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Grass - Unidentified,No agreement,,No agreement
+TaggerCompany1,Coat buttons,user3@qc.com,Coat buttons weed,TRUE,a278,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Sida,No agreement,,No agreement
+TaggerCompany1,Nutsedges (Cyperus),user4@qc.com,Grass,FALSE,a279,mapviewlink.com,visible_link.com,,FALSE,Grass - Unidentified,FALSE,Grass - Unidentified,Agreement (2) No Idan,FALSE,Grass - Unidentified
+TaggerCompany1,Coffee senna,user5@qc.com,Broad,FALSE,a280,mapviewlink.com,visible_link.com,,FALSE,Broadleaf - Unidentified,FALSE,Broadleaf - Unidentified,Agreement (2) No Idan,FALSE,Broadleaf - Unidentified
+TaggerCompany2,Dayflower,user1@qc.com,Dayflower weed,TRUE,a281,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Jimsonweed,user2@qc.com,Jimsonweed weed,TRUE,a282,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany2,Jointvetches,user3@qc.com,Jointvetches weed,TRUE,a283,mapviewlink.com,visible_link.com,,TRUE,Correct answer,TRUE,Correct answer,Agreement (2) No Idan,TRUE,Correct answer
+TaggerCompany1,Dayflower,user4@qc.com,Dayflower weed,TRUE,a284,mapviewlink.com,visible_link.com,,TRUE,Correct answer,FALSE,Brazil pusley,No agreement,,No agreement

@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="Page-1" id="rA4GSoAWc0MqZnAa7b5g">
+    <mxGraphModel dx="1281" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OvfU8Z7t44e9k_TrFWZy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="210" as="sourcePoint" />
+            <mxPoint x="320" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kHYAPU6dKyJWgTToN-Ly-2" target="kHYAPU6dKyJWgTToN-Ly-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-22" value="SQL (weekly sampling)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kHYAPU6dKyJWgTToN-Ly-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.2311" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-2" value="BigQuery Table (annotation raw)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kHYAPU6dKyJWgTToN-Ly-3" target="kHYAPU6dKyJWgTToN-Ly-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-15" value="Export (Data Connector)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kHYAPU6dKyJWgTToN-Ly-6" vertex="1" connectable="0">
+          <mxGeometry x="0.296" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-3" value="Sample Table in BigQuery" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kHYAPU6dKyJWgTToN-Ly-5" target="kHYAPU6dKyJWgTToN-Ly-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-16" value="Connected" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kHYAPU6dKyJWgTToN-Ly-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.624" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-5" value="Google Sheets (sample dataset)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kHYAPU6dKyJWgTToN-Ly-7" target="kHYAPU6dKyJWgTToN-Ly-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-17" value="Updated validations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kHYAPU6dKyJWgTToN-Ly-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.08" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-7" value="AppSheet (Double check)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="480" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kHYAPU6dKyJWgTToN-Ly-9" target="kHYAPU6dKyJWgTToN-Ly-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-18" value="Manual uploaded" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kHYAPU6dKyJWgTToN-Ly-12" vertex="1" connectable="0">
+          <mxGeometry x="0.256" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-9" value="Google Sheets (with QC results)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHYAPU6dKyJWgTToN-Ly-11" value="Validation Table in BigQuery" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
