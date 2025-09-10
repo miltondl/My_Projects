@@ -20,7 +20,6 @@ Tracking weeds accurately is essential for:
 - ✅ **Quality control of manual annotations** – Identify areas where taggers may mislabel or miss weeds.  
 - ✅ **Field coverage insights** – Understand which fields have higher proportions of unidentified weeds.  
 - ✅ **Data-driven decision-making** – Support agronomy teams and crop consultants with actionable metrics.  
-- ✅ **Demonstrate SQL expertise** – Shows advanced queries, JSON parsing, regex extraction, conditional aggregations, and CTE usage.  
 
 ---
 
