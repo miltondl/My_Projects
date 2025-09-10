@@ -101,7 +101,7 @@ Note: The Google Sheets → AppSheet step cannot be reproduced in this repo due 
 - Prepare the dataset for BigQuery upload
 
 3. Upload the dataset to BigQuery:
-```python
+``python
 from google.cloud import bigquery
 
 client = bigquery.Client(project="portfolio-project")
@@ -109,7 +109,7 @@ table_id = "portfolio_dataset.validation_table"
 
 job_config = bigquery.LoadJobConfig(write_disposition="WRITE_APPEND")
 job = client.load_table_from_dataframe(validation_report, table_id, job_config=job_config)
-job.result()```
+job.result()``
 
 --
 
