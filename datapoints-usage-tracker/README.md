@@ -96,4 +96,4 @@ This combination allows:
 - Clear view of **daily and cumulative usage patterns**  
 
 
-![Looker Studio Dashboard Example](docs/looker_dashboard.png)
+![Looker Studio Dashboard Example](docs/looker_dashboard.pdf)
