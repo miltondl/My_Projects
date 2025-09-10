@@ -111,9 +111,10 @@ job_config = bigquery.LoadJobConfig(write_disposition="WRITE_APPEND")
 job = client.load_table_from_dataframe(validation_report, table_id, job_config=job_config)
 job.result()
 ```
---
 
 ## 📁 Repository Structure
+
+```
 labelcheck-validation/
 ├── notebooks/
 │   └── sampling_demo.ipynb      # Demo notebook with fake data
@@ -125,7 +126,7 @@ labelcheck-validation/
 │   └── fake_annotations.csv     # Example fake dataset
 ├── requirements.txt
 └── README.md
-
+```
 
 ## 📌 Notes
 
