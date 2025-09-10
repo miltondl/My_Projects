@@ -119,17 +119,20 @@ job.result()
 ## 📁 Repository Structure
 
 ```
-labelcheck-validation/
+labelcheck_validation/
+├── README.md # Project description (this file)
+├── requirements.txt # Python dependencies
+├── queries/
+│ └── weekly_sample.sql # SQL query for weekly sampling
+│ └── main.py # End-to-end Python script
 ├── notebooks/
-│   └── sampling_demo.ipynb      # Demo notebook with fake data
-├── sql/
-│   └── weekly_sample.sql        # BigQuery SQL for sampling
-├── src/
-│   └── sample_generator.py      # Python script with pipeline logic
+│ └── sampling_demo.ipynb # Notebook demonstrating workflow
 ├── data/
-│   └── fake_annotations.csv     # Example fake dataset
-├── requirements.txt
-└── README.md
+│ ├── fake_sample.csv # Example input dataset
+│ └── output_example.csv # Example pipeline output
+├── docs/
+│ ├── flow_diagram.png # Pipeline diagram
+│ └── validation_ui.png # Screenshot of AppSheet interface
 ```
 
 ## 📌 Notes
