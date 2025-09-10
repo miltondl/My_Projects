@@ -5,7 +5,9 @@ The **LabelCheck Validation** pipeline improves **precision tracking** in manual
 
 It demonstrates how to combine **BigQuery, SQL, Python, Google Sheets, and AppSheet** (with mock/fake data) to:  
 - Generate weekly samples of manual tags using proportional random sampling in SQL  
-- Enable human-in-the-loop validation via AppSheet  
+- Enable **human-in-the-loop validation** via AppSheet  
+- Each sample is validated by **two independent reviewers**  
+- If reviewers disagree, they discuss to reach a **consensus decision**  
 - Track errors made by taggers and QC teams  
 - Calculate precision metrics over time  
 
@@ -19,7 +21,9 @@ This pipeline supports the **feedback loop between QC teams and taggers**:
 - **Measure tagger precision** – Random weekly samples allow tracking of manual tagging accuracy.  
 - **Identify QC errors** – Double-check validation highlights mistakes made by the QC team.  
 - **Enable data-driven improvement** – Weekly metrics support coaching and process optimization.  
-- **Demonstrate SQL expertise** – Complex queries compute proportional sample sizes, ranking, and joining metadata.  
+- **Demonstrate SQL expertise** – Complex queries compute proportional sample sizes, ranking, and joining metadata.
+- **Ensure high-quality validation** – Two reviewers per sample reduce mistakes and provide a reliable ground truth.
+
 
 ---
 
