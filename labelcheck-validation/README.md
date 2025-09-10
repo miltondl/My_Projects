@@ -1,35 +1,35 @@
-# LabelCheck Validation
+# ✅ LabelCheck Validation  
 
-## Description
-The LabelCheck Validation pipeline improves precision tracking in manual tagging QC workflows.  
+## 📖 Description  
+The **LabelCheck Validation** pipeline improves **precision tracking** in manual tagging QC workflows.  
 
-It demonstrates how to combine BigQuery, SQL, Python, Google Sheets, and AppSheet (with mock/fake data) to:
-- Generate weekly samples of manual tags using proportional random sampling in SQL
-- Enable human-in-the-loop validation via AppSheet
-- Track errors made by taggers and QC teams
-- Calculate precision metrics over time
+It demonstrates how to combine **BigQuery, SQL, Python, Google Sheets, and AppSheet** (with mock/fake data) to:  
+- Generate weekly samples of manual tags using proportional random sampling in SQL  
+- Enable human-in-the-loop validation via AppSheet  
+- Track errors made by taggers and QC teams  
+- Calculate precision metrics over time  
 
-This project uses mock/fake data to remain portfolio-safe.
-
----
-
-## Why This Matters
-This pipeline supports the feedback loop between QC teams and taggers:
-
-- Measure tagger precision – Random weekly samples allow tracking of manual tagging accuracy.
-- Identify QC errors – Double-check validation highlights mistakes made by the QC team.
-- Enable data-driven improvement – Weekly metrics support coaching and process optimization.
-- Demonstrate SQL expertise – Complex queries compute proportional sample sizes, ranking, and joining metadata.
+This project uses **mock/fake data** to remain portfolio-safe.  
 
 ---
 
-## Key Skills Demonstrated
-- SQL data extraction, grouping, proportional sampling, and joins
-- Python data processing with pandas
-- Web scraping and patch link extraction with BeautifulSoup
-- ETL pipeline automation (Extract → Transform → Load)
-- Data cleaning & preparation for BigQuery
-- Integration of multiple tools (BigQuery, Google Sheets, AppSheet)
+## 🚀 Why This Matters  
+This pipeline supports the **feedback loop between QC teams and taggers**:  
+
+- **Measure tagger precision** – Random weekly samples allow tracking of manual tagging accuracy.  
+- **Identify QC errors** – Double-check validation highlights mistakes made by the QC team.  
+- **Enable data-driven improvement** – Weekly metrics support coaching and process optimization.  
+- **Demonstrate SQL expertise** – Complex queries compute proportional sample sizes, ranking, and joining metadata.  
+
+---
+
+## 🛠️ Key Skills Demonstrated  
+- SQL data extraction, grouping, proportional sampling, and joins  
+- Python data processing with pandas  
+- Web scraping and patch link extraction with BeautifulSoup  
+- ETL pipeline automation (Extract → Transform → Load)  
+- Data cleaning & preparation for BigQuery  
+- Integration of multiple tools (**BigQuery, Google Sheets, AppSheet**)  
 
 ---
 
