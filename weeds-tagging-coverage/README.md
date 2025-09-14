@@ -1,36 +1,48 @@
 # 🌱 Weeds Tagging & Coverage Analysis
 
-## Description
-This project demonstrates **advanced SQL analysis** on crop imagery annotation data.  
+## 📖 Description  
+This project focuses on **measuring the quality of weed tagging** in crop imagery and understanding the **proportion of identified vs. unidentified weeds** across fields.  
 
-It combines multiple data sources to evaluate **weed tagging performance** and **weed coverage scores** across fields, crops, and clients.  
+Using advanced SQL queries, it combines multiple data sources to generate **weed coverage reports** for different crops, clients, and fields.  
 
-The SQL query:  
-- Calculates counts of manually tagged weeds in **different categories**: `broad_unidentified`, `grass_unidentified`, `broad_identified`, `grass_identified`.  
-- Computes **coverage scores** for each weed species using JSON insights from `global_insights`.  
-- Produces a **comprehensive report** by order, linking tag counts, scores, and field metadata.  
+The pipeline measures weeds in **two ways**:  
+1. **Annotation counts per label** – Counts the number of manually tagged weeds for each species.  
+2. **Weed coverage score** – Calculates coverage per weed automatically based on field-level annotations (`global_insights`).  
 
-This project uses **realistic examples** but can be adapted to portfolio-safe datasets.  
+It produces a **comprehensive report** linking weed counts, coverage scores, and field metadata, helping identify areas with **low identification rates** and enabling targeted re-annotation to improve dataset quality.  
 
----
-
-## Why This Matters
-Tracking weeds accurately is essential for:  
-
-- ✅ **Quality control of manual annotations** – Identify areas where taggers may mislabel or miss weeds.  
-- ✅ **Field coverage insights** – Understand which fields have higher proportions of unidentified weeds.  
-- ✅ **Data-driven decision-making** – Support agronomy teams and crop consultants with actionable metrics.  
+All examples here use **realistic data**, but the workflow can be adapted for **portfolio-safe datasets**.
 
 ---
 
-## Key Skills Demonstrated
-- SQL **CTEs** (Common Table Expressions) for modular query building  
-- **JSON extraction** (`JSON_EXTRACT`) and regex parsing for nested insights  
-- Conditional aggregation with `CASE WHEN`  
-- Window functions (`ROW_NUMBER() OVER`) for deduplication  
-- Joins across multiple tables for integrated reporting  
-- Calculating percentages and coverage metrics  
+## 🚀 Why This Matters  
+Accurate weed tagging is essential for both **AI model training** and **field-level decision-making**:  
 
+- ✅ **Evaluate tagger performance** – Detect where weeds are being missed or mislabeled.  
+- ✅ **Understand field coverage** – Identify fields or crops with high proportions of unidentified weeds.  
+- ✅ **Enable targeted re-annotation** – Focus on fields with low identification rates to improve dataset quality.  
+- ✅ **Support agronomy teams** – Provide actionable metrics for crop management and reporting.  
+
+---
+
+## 🛠️ Key Skills Demonstrated  
+- Writing **modular SQL queries** with CTEs (Common Table Expressions)  
+- Extracting and parsing nested data from **JSON fields**  
+- Conditional aggregation (`CASE WHEN`) to calculate metrics  
+- Using **window functions** (`ROW_NUMBER() OVER`) for deduplication  
+- Joining multiple tables for integrated reporting  
+- Calculating **percentages and coverage scores** across clients, crops, and flights  
+
+---
+
+## 📊 Use Case / Workflow  
+1. Measure the proportion of unidentified weeds in **two ways**:  
+   - By counting the number of annotations per label.  
+   - By calculating the **weed coverage score** automatically.  
+2. Analyze results **by client, organization, country, crop, and flight date**.  
+3. Filter fields with **low unidentified proportions** to understand gaps.  
+4. Optionally **re-annotate** these fields to increase identification quality.  
+5. Generate reports to track improvements over time.
 ---
 
 ## Project Workflow
@@ -56,8 +68,3 @@ Tracking weeds accurately is essential for:
 3. Optionally, export the results to CSV or visualize in **Looker Studio** for further reporting.  
 
 ---
-
-## Potential Enhancements
-- Add **dashboard visualizations**: pie charts for tag proportions, time-series coverage charts, heatmaps by field.  
-- Make it **parameterized**: filter by date range, crop type, or organization.  
-- Store intermediate CTE results as **views** for faster access on large datasets.  

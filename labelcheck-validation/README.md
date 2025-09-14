@@ -1,88 +1,59 @@
 # ✅ LabelCheck Validation  
 
-## 📖 Description  
-The **LabelCheck Validation** pipeline improves **precision tracking** in manual tagging QC workflows.  
+## 📖 What This Project Is About  
+In annotation workflows, humans (annotators) label images, and then a **QC team** reviews their work to catch mistakes. Normally, the QC team is considered the “ground truth,” but even they can make errors.  
 
-It demonstrates how to combine **BigQuery, SQL, Python, Google Sheets, and AppSheet** (with mock/fake data) to:  
-- Generate weekly samples of manual tags using proportional random sampling in SQL  
-- Enable **human-in-the-loop validation** via AppSheet  
-- Each sample is validated by **two independent reviewers**  
-- If reviewers disagree, they discuss to reach a **consensus decision**  
-- Track errors made by taggers and QC teams  
-- Calculate precision metrics over time  
+This project, **LabelCheck Validation**, was built to **measure the accuracy of both annotators and QC members**. It provides a **simple, automated pipeline** to:  
 
-This project uses **mock/fake data** to remain portfolio-safe.  
+- Randomly select samples of annotated data.  
+- Have **two independent reviewers** validate the samples.  
+- Detect mistakes made by **annotators and QC members**.  
+- Track performance over time with clear metrics.  
 
----
-
-## 🚀 Why This Matters  
-This pipeline supports the **feedback loop between QC teams and taggers**:  
-
-- **Measure tagger precision** – Random weekly samples allow tracking of manual tagging accuracy.  
-- **Identify QC errors** – Double-check validation highlights mistakes made by the QC team.  
-- **Enable data-driven improvement** – Weekly metrics support coaching and process optimization.  
-- **Demonstrate SQL expertise** – Complex queries compute proportional sample sizes, ranking, and joining metadata.
-- **Ensure high-quality validation** – Two reviewers per sample reduce mistakes and provide a reliable ground truth.
-
+All the data in this project is **fake or simulated** to keep it portfolio-safe.  
 
 ---
 
-## 🛠️ Key Skills Demonstrated  
-- SQL data extraction, grouping, proportional sampling, and joins  
-- Python data processing with pandas  
-- Web scraping and patch link extraction with BeautifulSoup  
-- ETL pipeline automation (Extract → Transform → Load)  
-- Data cleaning & preparation for BigQuery  
-- Integration of multiple tools (**BigQuery, Google Sheets, AppSheet**)  
+## 🧐 Why This Project Matters  
+In real-world annotation projects:  
+
+- **Annotators** make mistakes occasionally.  
+- **QC reviewers** can also miss errors, but we usually don’t check their performance.  
+- Without a proper feedback loop, it’s hard to **improve quality** or identify systematic issues.  
+
+This pipeline solves that by:  
+
+- ✅ Building a **second validation layer** to evaluate QC performance.  
+- ✅ Identifying **patterns of errors** in both annotators and QC reviewers.  
+- ✅ Generating **weekly metrics** for continuous improvement.  
+- ✅ Creating a **clear feedback loop** to coach teams and improve accuracy.  
 
 ---
 
-# 🔎 LabelCheck Validation  
+## 🛠️ Skills Demonstrated  
 
-## Description  
-The **LabelCheck Validation** project is a pipeline designed to improve the **accuracy measurement of manual tags** in annotation workflows.  
-
-It combines **BigQuery (SQL)**, **Python**, **Google Sheets**, and **AppSheet** to:  
-- Randomly sample manual tags each week (proportional to categories & companies).  
-- Double-check QC decisions by assigning samples to validators.  
-- Feed validated results back into BigQuery to calculate **true precision metrics**.  
-
-All examples here use **fake/simulated data** to keep the project portfolio-safe.  
+- Advanced **SQL sampling**: proportional random selection per category.  
+- **Python data processing** with Pandas and NumPy.  
+- **Pipeline automation**: extract → transform → load.  
+- Integration of multiple tools: **BigQuery, Google Sheets, AppSheet**.  
+- **Data quality tracking**: precision, error reports, confusion matrices.  
+- Portfolio-safe examples using **mock/fake data**.  
 
 ---
 
-## 🚀 Why This Matters  
-In annotation workflows, **QC is the “ground truth”**, but QC can also make mistakes.  
-This pipeline helps by:  
+## 🔄 How the Pipeline Works  
 
-- ✅ Building a **second validation layer** to measure QC accuracy.  
-- ✅ Detecting **systematic QC errors** (by tag type or company).  
-- ✅ Generating **weekly metrics** to track precision over time.  
-- ✅ Improving feedback loops with tagging companies.  
+1. **Generate weekly samples** from BigQuery using SQL proportional sampling.  
+2. **Export samples** to Google Sheets (simulating the real workflow).  
+3. **Validate samples** using AppSheet: two reviewers mark correct/wrong tags.  
+4. **Handle disagreements**: reviewers discuss to reach a consensus.  
+5. **Update metrics** in BigQuery: track both annotator and QC performance.  
 
----
-
-## 🛠️ Key Skills Demonstrated  
-- Advanced **SQL sampling logic** in BigQuery  
-- Data processing & pipeline orchestration with **Python**  
-- Integration between **BigQuery ↔ Google Sheets ↔ AppSheet**  
-- Data validation workflows for **quality assurance**  
-- Portfolio-safe project structure with **mock data**  
+> Note: AppSheet steps are simulated with fake CSVs in this repo.  
 
 ---
 
-## 🔄 Project Workflow
-1. Create weekly samples from BigQuery using SQL to compute proportional random sampling.
-2. Export samples to Google Sheets (via Data Connectors).
-3. Human validation via AppSheet – reviewers mark correct/wrong tags.
-4. Update BigQuery validation table with validated data.
-5. Calculate precision metrics by tagger and QC team.
-
-Note: The Google Sheets → AppSheet step cannot be reproduced in this repo due to private connectors. Fake CSVs simulate this step.
-
----
-
-## 📂 Example Table (with fake data)
+## 📂 Example Table (Fake Data)
 
 | patch_id | image_id | test_name | tagger | tagger_company | manual_tag | qc_tag | validated_by | link                       |
 |----------|----------|-----------|--------|----------------|------------|--------|--------------|----------------------------|
@@ -91,6 +62,7 @@ Note: The Google Sheets → AppSheet step cannot be reproduced in this repo due 
 | 103      | IMG_03   | Test 1    | Carla  | Company_C      | Yes        | No     | Sergio       | https://fake-link/img3.png |
 
 ---
+
 
 ## ▶️ How to Run
 
@@ -121,7 +93,6 @@ job.result()
 ```
 labelcheck_validation/
 ├── README.md # Project description (this file)
-├── requirements.txt # Python dependencies
 ├── queries/
 │ └── weekly_sample.sql # SQL query for weekly sampling
 │ └── main.py # End-to-end Python script

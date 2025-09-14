@@ -1,19 +1,20 @@
-# 🎯 Taggers Qualification
+# 🎯 Taggers & QC Qualification – Weed Annotation
 
-**End-to-end pipeline for evaluating annotation quality and performance.**  
+**End-to-end pipeline for evaluating annotation quality and performance in weed annotation projects.**  
 
 ---
 
 ## ❓ Why This Project Matters
 
-In many data-driven projects, the **accuracy of human annotations** directly impacts the performance of AI models and the quality of insights. This project addresses that challenge by providing a **reproducible and automated pipeline** to:
+In many agricultural AI projects, the **accuracy of human annotations**—like identifying weeds in crop images—directly affects the quality of AI models and the insights derived from them.  
 
-- Ensure a **high-quality “golden dataset”** for benchmarking.
-- Evaluate annotators consistently and fairly.
-- Identify **patterns of errors or inconsistencies** in tagging.
-- Generate actionable reports for improving both **human and AI workflows**.
+This project addresses that challenge by providing a **reproducible and automated pipeline** to:  
 
-The techniques and workflows demonstrated here are **transferable to any domain** where human labeling or validation is critical, such as document classification, image/video annotation, or quality control in datasets.
+- Ensure a **high-quality “golden dataset”** of weed images for benchmarking.  
+- Evaluate annotators consistently and fairly.  
+- Assess new QC members to ensure the review process itself is accurate.  
+- Identify **patterns of errors or inconsistencies** in tagging.  
+- Generate actionable reports for improving both **human and AI workflows**.  
 
 ---
 
