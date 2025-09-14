@@ -54,11 +54,20 @@ The project consists of **three main steps**:
 ```
 taggers-qualification/
 │
-├── 1_build_golden_dataset/ # Scripts to download and prepare the dataset
-├── 2_create_task/ # Scripts to create tasks for annotators
-├── 3_analysis/ # Scripts to analyze results and generate reports
-├── README.md # Project overview
-└── .gitignore # Ignore temporary files and credentials
+├── data/
+│   ├── notebooks/
+│   │   └── weeds_report_analysis.ipynb
+│   └── reports/
+│       ├── general_report_new_report.csv
+│       └── general_report_new_report_2.csv
+│
+├── pipelines/
+│   ├── 1.building_golden_dataset.py
+│   ├── 2.create_task.py
+│   ├── 3.report_analysis.py
+│   └── utils.py
+│
+├── README.md
 ```
 
 ---
