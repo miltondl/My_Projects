@@ -1,51 +1,52 @@
-# Milton Del Aguila – Data & Agri/AI Projects
+# 📂 My_Projects  
 
-Welcome to my project portfolio! Here you'll find a selection of my work in **data analysis, quality control, and automation**, focused on agricultural and AI applications.
-
----
-
-## 👨‍💻 About Me
-- Background in **Agroecology & Plant Health**  
-- Skills in **Python, SQL, BigQuery, Pandas, ETL pipelines, and data visualization**  
-- Experience in **quality control processes, annotation tracking, and agricultural data analysis**
+Welcome to my **Data Analysis & Automation Projects** repository!  
+This is a collection of real-world projects where I apply **Python, SQL, data pipelines, and automation** to solve practical problems and improve data workflows. Each project demonstrates my skills in **data cleaning, analysis, reporting, and validation**.  
 
 ---
 
-# 📂 Projects
+## 🚀 About This Repository  
 
-## 1. 📊 Automated Annotation Tracker
-**Description:** Automates extraction of patch reports, makes patch images accessible, and tracks tagger activity for QC feedback.  
-**Tech:** Python, BeautifulSoup, Dataloop API, BigQuery  
-**Folder:** `automated-annotation-tracker`  
-[**More Details →**](./automated-annotation-tracker/)
+In this repo, you’ll find projects covering:  
 
----
+- **Data pipelines & automation** → Automate repetitive tasks and ETL workflows.  
+- **Annotation & QC validation** → Ensure accuracy of human or AI tagging.  
+- **Data tracking & visualization** → Monitor usage, progress, and performance with dashboards.  
+- **SQL & BigQuery analytics** → Advanced queries, aggregation, and coverage metrics.  
 
-## 2. ✅ LabelCheck Validation
-**Description:** Weekly proportional sampling of manual tags with human-in-the-loop validation; tracks QC vs tagger discrepancies.  
-**Tech:** Python, SQL, BigQuery, Google Sheets, AppSheet  
-**Folder:** `labelcheck-validation`  
-[**More Details →**](./labelcheck-validation/)
+All projects are designed to be **portfolio-safe**, using **mock or simulated data** when real data cannot be shared.  
 
 ---
 
-## 3. 📈 Dataloop Datapoints Usage Tracker
-**Description:** Tracks daily datapoints usage per project/team, generates cumulative metrics, and visualizes results in Looker Studio.  
-**Tech:** Python, Google Sheets, Looker Studio, Dataloop API  
-**Folder:** `datapoints-usage-tracker`  
-[**More Details →**](./datapoints-usage-tracker/)
+## 📁 Projects Overview  
+
+Here’s a quick look at the projects included in this repository:  
+
+| Project | Description |
+|---------|-------------|
+| [🎯 Taggers Qualification](./taggers-qualification) | End-to-end pipeline to evaluate **annotators and new QC members**, with golden datasets, task creation, and performance analysis (confusion matrices, precision/recall, error reports). |
+| [📊 Automated Annotation Tracker](./Patch_Report_Automation) | Automates annotation validation in Dataloop, identifies taggers, and updates BigQuery tables efficiently. |
+| [✅ LabelCheck Validation](./labelcheck-validation) | Weekly proportional sampling of manual tags, human-in-the-loop validation, and tracking of tagger and QC accuracy. |
+| [📈 Datapoints Usage Tracker](./datapoints-usage-tracker) | Tracks daily datapoint usage across projects, pushing results to Google Sheets and Looker Studio dashboards. |
+| [🌿 Weeds Tagging Coverage (SQL)](./weeds-tagging-coverage) | SQL analysis of weeds tagging coverage by counts and coverage score, with metrics for client, crop, and field. |
 
 ---
 
-## 4. 🌿 Weeds Tagging Coverage (SQL)
-**Description:** Analyzes weeds tagging with counts and coverage scores per category (broad/grass, identified/unidentified).  
-**Tech:** SQL, BigQuery  
-**Folder:** `weeds-tagging-coverage`  
-[**More Details →**](./weeds-tagging-coverage/)
+## 🛠️ Tech Stack  
+
+`Python` · `SQL` · `BigQuery` · `Pandas` · `APIs` · `Google Sheets` · `Looker Studio` · `AppSheet`  
 
 ---
 
-## 📫 Contact
-- **Email:** miltondele@gmail.com
-- **LinkedIn:** [linkedin.com/in/milton-del-aguila-3076a9139](https://linkedin.com/in/milton-del-aguila-3076a9139)
+## 📫 Connect with Me  
+
+- [LinkedIn](https://linkedin.com/in/milton-del-aguila-3076a9139)  
+- [Email](mailto:miltondele@gmail.com)  
+
 ---
+
+## 📌 Notes  
+
+- All projects use **portfolio-safe data**.  
+- Detailed documentation and instructions are available in each project folder.  
+- This repository demonstrates my workflow from **data extraction → processing → validation → reporting**.  
