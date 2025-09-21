@@ -1,0 +1,21 @@
+ID,Annotator,Annotator_label,ImageLink
+502812,Alice,Pigweed,https://demo-images.com/11019.jpg
+502812,Bob,Dandelion,https://demo-images.com/11019.jpg
+502812,Carla,Sowthisles,https://demo-images.com/11019.jpg
+502812,David,Pigweed,https://demo-images.com/11019.jpg
+849586,Alice,Other label,https://demo-images.com/75243.jpg
+849586,Bob,Dandelion,https://demo-images.com/75243.jpg
+849586,Carla,Dandelion,https://demo-images.com/75243.jpg
+849586,David,Sowthisles,https://demo-images.com/75243.jpg
+651247,Alice,Dandelion,https://demo-images.com/84743.jpg
+651247,Bob,Pigweed,https://demo-images.com/84743.jpg
+651247,Carla,Pigweed,https://demo-images.com/84743.jpg
+651247,David,Other label,https://demo-images.com/84743.jpg
+909795,Alice,Pigweed,https://demo-images.com/90261.jpg
+909795,Bob,Other label,https://demo-images.com/90261.jpg
+909795,Carla,Sowthisles,https://demo-images.com/90261.jpg
+909795,David,Sowthisles,https://demo-images.com/90261.jpg
+165001,Alice,Other label,https://demo-images.com/26121.jpg
+165001,Bob,Sowthisles,https://demo-images.com/26121.jpg
+165001,Carla,Other label,https://demo-images.com/26121.jpg
+165001,David,Pigweed,https://demo-images.com/26121.jpg

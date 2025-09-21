@@ -1,0 +1,21 @@
+ID,Golden_label,Annotator_label,Annotator,ImageLink
+502812,Sowthisles,Pigweed,Alice,https://demo-images.com/11019.jpg
+502812,Sowthisles,Dandelion,Bob,https://demo-images.com/11019.jpg
+502812,Sowthisles,Sowthisles,Carla,https://demo-images.com/11019.jpg
+502812,Sowthisles,Pigweed,David,https://demo-images.com/11019.jpg
+849586,Pigweed,Other label,Alice,https://demo-images.com/75243.jpg
+849586,Pigweed,Dandelion,Bob,https://demo-images.com/75243.jpg
+849586,Pigweed,Dandelion,Carla,https://demo-images.com/75243.jpg
+849586,Pigweed,Sowthisles,David,https://demo-images.com/75243.jpg
+651247,Pigweed,Dandelion,Alice,https://demo-images.com/84743.jpg
+651247,Pigweed,Pigweed,Bob,https://demo-images.com/84743.jpg
+651247,Pigweed,Pigweed,Carla,https://demo-images.com/84743.jpg
+651247,Pigweed,Other label,David,https://demo-images.com/84743.jpg
+909795,Dandelion,Pigweed,Alice,https://demo-images.com/90261.jpg
+909795,Dandelion,Other label,Bob,https://demo-images.com/90261.jpg
+909795,Dandelion,Sowthisles,Carla,https://demo-images.com/90261.jpg
+909795,Dandelion,Sowthisles,David,https://demo-images.com/90261.jpg
+165001,Sowthisles,Other label,Alice,https://demo-images.com/26121.jpg
+165001,Sowthisles,Sowthisles,Bob,https://demo-images.com/26121.jpg
+165001,Sowthisles,Other label,Carla,https://demo-images.com/26121.jpg
+165001,Sowthisles,Pigweed,David,https://demo-images.com/26121.jpg
